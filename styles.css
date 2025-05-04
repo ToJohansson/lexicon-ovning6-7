@@ -1,0 +1,14 @@
+/* styles.css */
+.poster {
+  width: 300px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  color: darkred;
+  margin-top: 1rem;
+}
