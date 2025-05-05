@@ -3,58 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>FS</title>
   </head>
   <body>
-    <h1 class="title">The Naked Gun (1988)</h1>
-
     <header>
-      <img
-        src="https://resizing.flixster.com/g9Wq4atRnUPSvZZrQKzDZN2x5z4=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11300_p_v8_ak.jpg"
-        class="poster"
-      />
+      <table>
+        <tr>
+          <td>
+            <h1 class="title">The Naked Gun (1988)</h1>
+            <img
+              src="https://resizing.flixster.com/g9Wq4atRnUPSvZZrQKzDZN2x5z4=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11300_p_v8_ak.jpg"
+              class="poster"
+              alt="The Naked Gun (1988)"
+            />
+          </td>
+
+          <td>
+            <nav class="menu">
+              <ul>
+                <li><a href="#rating">Rating</a></li>
+                <li><a href="#genre">Genre</a></li>
+                <li><a href="#runtime">Runtime</a></li>
+                <li><a href="#release">Release</a></li>
+                <li><a href="#producer">Producer</a></li>
+                <li><a href="#actor">Actors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+              </ul>
+            </nav>
+          </td>
+        </tr>
+      </table>
     </header>
-    <div>
-      <div>
-        <p>Released: Dec 2, 1988:</p>
-        <p>
-          Credits: David Zucker and Jim Abrahams as Screenwriters, Executive
-          Producers
-        </p>
-        <p>
-          Actors: Leslie Nielsen as Lt. Frank Drebin, George Kennedy as Captain
-          Ed Hocken, Priscilla Presley as Jane Spencer, Ricardo Montalban as
-          Vincent Ludwig, O.J Simpson as Det. Nordberg, Nancy Marchand as Mayor
-          Barkley
-        </p>
-        <p>
-          About: Frank Drebin (Leslie Nielsen), a rather clueless police
-          detective, tries to foil a plot to turn innocent people into assassins
-          through mind control. After his partner, Norberg (O.J. Simpson), is
-          shot, Frank sets out to find the culprit, leading him to business
-          tycoon Vincent Ludwig (Ricardo Montalban). However, Frank has no
-          evidence until he meets Jane Spencer (Priscilla Presley), Ludwig's
-          assistant. She knows nothing about Ludwig's devious plans, but falls
-          for Frank and agrees to help him.
-        </p>
-      </div>
-      <div>
+
+    <main>
+      <section class="info-cards">
+        <div class="info-card" id="rating">
+          <h3>Rating</h3>
+          <p>7.6/10</p>
+        </div>
+
+        <div class="info-card" id="genre">
+          <h3>Genre</h3>
+          <p>Comedy, Crime</p>
+        </div>
+
+        <div class="info-card" id="runtime">
+          <h3>Runtime</h3>
+          <p>1h 25m</p>
+        </div>
+
+        <div class="info-card" id="release">
+          <h3>Release Date</h3>
+          <p>Dec 2, 1988</p>
+        </div>
+
+        <div class="info-card" id="producer">
+          <h3>Executive Producers</h3>
+          <ul>
+            <li>David Zucker</li>
+            <li>Jim Abrahams</li>
+          </ul>
+        </div>
+
+        <div class="info-card" id="actor">
+          <h3>Actors</h3>
+          <ul>
+            <li>Leslie Nielsen</li>
+            <li>George Kennedy</li>
+            <li>Priscilla Presley</li>
+            <li>Ricardo Montalban</li>
+            <li>O.J. Simpson</li>
+            <li>Nancy Marchand</li>
+          </ul>
+        </div>
+
+        <div class="info-card about" id="about">
+          <h3>About</h3>
+          <p>
+            Frank Drebin (Leslie Nielsen), a rather clueless police detective,
+            tries to foil a plot to turn innocent people into assassins through
+            mind control. After his partner, Norberg (O.J. Simpson), is shot,
+            Frank sets out to find the culprit, leading him to business tycoon
+            Vincent Ludwig (Ricardo Montalban). However, Frank has no evidence
+            until he meets Jane Spencer (Priscilla Presley), Ludwig's assistant.
+            She knows nothing about Ludwig's devious plans, but falls for Frank
+            and agrees to help him.
+          </p>
+        </div>
+      </section>
+
+      <section class="iframe-container" id="trailer">
         <iframe
+          id="trailer"
           src="https://www.youtube.com/embed/du4zCR3xNxQ?si=SQAjl7McHn2dP8i5"
+          title="The Naked Gun (1988) Trailer"
+          frameborder="0"
+          allowfullscreen
         ></iframe>
-      </div>
-      <div>
+      </section>
+
+      <section class="link-container">
         <p>
           Informationen är hämtad från
           <a
             href="https://www.rottentomatoes.com/m/the_naked_gun_from_the_files_of_police_squad"
-          >
-            Rotten Tomatoes </a
+            >Rotten Tomatoes</a
           >.
         </p>
-      </div>
-    </div>
-    <footer>Webmaster: Tobias Johansson i uppdrag utav FS</footer>
+      </section>
+    </main>
+
+    <footer>
+      <p>Webmaster: Tobias Johansson, på uppdrag av FS</p>
+      <p>&copy; 2025 FS. All rights reserved.</p>
+    </footer>
   </body>
 </html>
